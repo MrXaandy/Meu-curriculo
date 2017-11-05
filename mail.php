@@ -1,6 +1,6 @@
 <?php
-    require("PHPMailer-master/class.phpmailer.php");
-    require("PHPMailer-master/class.smtp.php");
+    require("class.phpmailer.php");
+    require("class.smtp.php");
     $mail = new PHPMailer();
     $mail->IsSMTP();  // telling the class to use SMTP
     $mail->Host     = "smtp.gmail.com"; // SMTP server
