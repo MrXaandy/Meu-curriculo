@@ -17,7 +17,7 @@
                         <img src="imagens/mrxaandy.png" alt="mrxaandy" class="img-responsive img-circle">
                 </figure>
                 <div class="profile-user-title">
-                        MrXaandy
+                        <p>MrXaandy</p>
                 </div>
                 <section class="profile-user-buttons">
                     <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Entre em contato</button>
@@ -86,13 +86,21 @@
                         <h4 class="modal-title">Entre em contato</h4>
                     </div>
                     <form action="mail.php" method="post" name="form">
+                    <div class="form-group">
+                            <label for="Nome">Nome:</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>
                         <div class="form-group">
                             <label for="Email">Email:</label>
-                            <input type="email" class="form-control" name="email">
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Assunto">Assunto:</label>
+                            <input type="text" class="form-control" name="assunto" id="assunto">
                         </div>
                         <div class="form-group">
                             <label for="Mensagem">Mensagem:</label>
-                            <textarea type="text" class="form-control" name="mensagem"></textarea>
+                            <textarea type="text" class="form-control" name="mensagem" id="mensagem"></textarea>
                         </div>
                         <button type="submit" class="btn btn-default" name="Enviar" value="Enviar">Enviar</button>
                     </form>
