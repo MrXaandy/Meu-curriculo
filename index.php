@@ -13,11 +13,11 @@
     <section class="container">
         <section class="col-md-3">
             <section class="profile-sidebar">
-                <figure class="profile-usertopic">
-                        <img src="imagens/mrxaandy.png" alt="mrxaandy" class="img-responsive img-circle">
+                <figure class="profile-user-pic">
+                        <img src="imagens/mrxaandy.png" alt="mrxaandy" class="img-responsive img-circle img">
                 </figure>
                 <div class="profile-user-title">
-                        <p>MrXaandy</p>
+                        MrXaandy
                 </div>
                 <section class="profile-user-buttons">
                     <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Entre em contato</button>
@@ -35,46 +35,50 @@
         <section class="col-md-9">
             <section id="inicio" class="profile-content">
                 <h2>Seja bem-vindo!</h2>
-                <h3>Meu nome é Alexandre da Silva, atualmente curso Engenharia da Computação 
+                <p class="descricao">Meu nome é Alexandre da Silva, atualmente curso Engenharia da Computação 
                     na Faculdade SATC, e atuo profissionalmente no ramo de Logística.
-                    Por consequência, sou aficionado por soluções computacionais para problemas logísticos.</h3> 
-                <h3>Este é o meu currículo online. Navegue através das abas laterais para acessar mais informações.</h3>
+                    Por consequência, sou aficionado por soluções computacionais para problemas logísticos.</p> 
+                <p>Este é o meu currículo online. Navegue através das abas laterais para acessar mais informações.</p>
             </section>
             <section id="informacoes" class="profile-content">
                 <h2>Informações básicas</h2>
-                <h3><strong>Data de nascimento:</strong> 23/10/1995</h3>
-                <h3><strong>Endereço:</strong> R. Herculano da Silva</h3>
-                <h3><strong>Estado Civil:</strong> Solteiro</h3>
-                <h3><strong>Naturalidade:</strong> Brasileiro</h3>
-                <h3><strong>Telefone:</strong> (48) 988353879</h3>
-                <h3><strong>Email:</strong> alexandresx9@gmail.com</h3>
+                <p><strong>Data de nascimento:</strong>23/10/1995</p>
+                <p><strong>Endereço:</strong>R. Herculano da Silva</p>
+                <p><strong>Estado Civil:</strong> Solteiro</p>
+                <p><strong>Naturalidade:</strong> Brasileiro</p>
+                <p><strong>Telefone:</strong> (48) 988353879</p>
+                <p><strong>Email:</strong> alexandresx9@gmail.com</p>
             </section>
             <section id="formacao" class="profile-content">
                 <h2><strong>Formação acadêmica</strong></h2>
-                <h3><strong>Ensino fundamental:</strong> Escola E. F. Visconde De Taunay</h3>
-                <h3><strong>Ensino médio:</strong> Escola E. M. Walter Holthausen</h3>   
-                <h3><strong>Graduação:</strong> Engenharia da Computação / Faculdade SATC</h3>
+                <p><strong>Ensino fundamental:</strong></p>
+                <p>Escola E. F. Visconde De Taunay</p>
+                <p><strong>Ensino médio:</strong></p>
+                <p>Escola E. M. Walter Holthausen</p>   
+                <p><strong>Graduação:</strong></p>
+                <p>Engenharia da Computação / Faculdade SATC</p>
             </section>
             <section id="experiencia" class="profile-content">
                 <h2>Experiência profissional</h2>
-                <h3><strong>Empresa:</strong> Fontanella Transportes</h3>
-                <h3><strong>Cargo:</strong> Coordenador de Logistica</h3>
-                <h3><strong>Data de inicio:</strong> 23/12/2015</h3>
-                <h3><strong>Atividades desenvolvidas:</strong> Gerenciamento de caminhões da frota</h3>
+                <p><strong>Empresa:</strong> Fontanella Transportes</p>
+                <p><strong>Cargo:</strong> Coordenador de Logistica</p>
+                <p><strong>Data de inicio:</strong> 23/12/2015</p>
+                <p><strong>Atividades desenvolvidas:</strong></p>
+                <p>Gerenciamento de caminhões da frota</p>
             </section>
             <section id="eventos" class="profile-content">
                 <h2>Participação em eventos</h2>
-                <h3></h3>
-                <h3></h3>
-                <h3></h3>
+                <p></p>
+                <p></p>
+                <p></p>
             </section>
             <section id="adicionais" class="profile-content">
                 <h2><strong>Informações adicionais:<strong></h2>
-                <h3><strong>Competências:</strong></h3>
-                <h3><strong>Carteira de motorista:</strong></h3>
-                <h3><strong>Disponibilidade para viagens:</strong></h3>
-                <h3><strong>Idiomas:</strong></h3>
-                <h3><strong>Objetivo profissional:</strong></h3>
+                <p><strong>Competências:</strong></p>
+                <p><strong>Carteira de motorista:</strong></p>
+                <p><strong>Disponibilidade para viagens:</strong></p>
+                <p><strong>Idiomas:</strong></h3>
+                <p><strong>Objetivo profissional:</strong></p>
             </section>
         </section>
 
