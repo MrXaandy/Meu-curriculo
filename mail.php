@@ -27,10 +27,8 @@
     $mail->AddAddress("alexandresx9@gmail.com");
     
      if(!$mail->Send()) {
-        echo "<script type='javascript'>alert('Erro ao enviar email. Tente entrar em contato diretamente com email: alexandresx9@gmail.com.!');";
-        echo "javascript:window.location='index.php';</script>";
+        echo "<script type='javascript'>alert('Erro ao enviar email. Tente entrar em contato diretamente com email: alexandresx9@gmail.com.!');</script>";
      } else {
-        echo "<script type='javascript'>alert('Email enviado com Sucesso!');";
-        echo "javascript:window.location='index.php';</script>";
+        echo "<script type='javascript'>alert('Email enviado com Sucesso!');</script>";
      }
 ?>
