@@ -23,12 +23,12 @@
                     <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Entre em contato</button>
                 </section>
                 <section class="profile-user-menu">
-                    <button id="defaultOpen" class="tablinks" onclick="openInfo(event, 'inicio')">Inicio</button>
-                    <button class="tablinks" onclick="openInfo(event, 'informacoes')">Informações básicas</button>
-                    <button class="tablinks" onclick="openInfo(event, 'formacao')">Formação acadêmica</button>
-                    <button class="tablinks" onclick="openInfo(event, 'experiencia')">Experiência profissional</button>
-                    <button class="tablinks" onclick="openInfo(event, 'eventos')">Participação em eventons</button>
-                    <button class="tablinks" onclick="openInfo(event, 'adicionais')">Informações adicionais</button>
+                    <button id="defaultOpen" class="tablinks" onclick="openInfo(event, 'inicio')"><a href="#inicio">Inicio</a></button>
+                    <button class="tablinks" onclick="openInfo(event, 'informacoes')"><a href="#informacoes">Informações básicas</a></button>
+                    <button class="tablinks" onclick="openInfo(event, 'formacao')"><a href="#formacao">Formação acadêmica</a></button>
+                    <button class="tablinks" onclick="openInfo(event, 'experiencia')"><a href="#experiencia">Experiência profissional</a></button>
+                    <button class="tablinks" onclick="openInfo(event, 'eventos')"><a href="#eventos">Participação em eventons</a></button>
+                    <button class="tablinks" onclick="openInfo(event, 'adicionais')"><a href="#adicionais">Informações adicionais</a></button>
                 </section>
             </section>
         </section>
@@ -115,11 +115,28 @@
             </div>
         </div>
 
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></button>
+
         <footer>
         </footer>
     </section>
     
     <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        }
+
         function openInfo(evt, topico) {
            
             var i, tabcontent, tablinks;
