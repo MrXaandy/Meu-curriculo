@@ -1,6 +1,4 @@
 <?php
-    require("class.phpmailer.php");
-    require("class.smtp.php");
     $nomeremetente = $_POST['nome'];
     $emailremetente = trim($_POST['email']);
     $assunto = $_POST['assunto'];
@@ -11,6 +9,8 @@
     <p><b>Assunto:</b> '.$assunto.'
     <p><b>Mensagem:</b> '.$mensagem.'</p>
     <hr>';
+    require("class.phpmailer.php");
+    require("class.smtp.php");
     $mail = new PHPMailer(); 
     $mail->IsSMTP(); 
     $mail->SMTPDebug = 1; 
@@ -23,7 +23,7 @@
     $mail->Password = "freestepporra";
     $mail->SetFrom("alexandresx9@gmail.com");
     $mail->Subject = $assunto;
-    $mail->Body = $mensagem;
+    $mail->Body = $mensagemHTML;
     $mail->AddAddress("alexandresx9@gmail.com");
     
      if(!$mail->Send()) {
