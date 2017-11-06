@@ -131,9 +131,9 @@
     
     <script>
         window.onscroll = function() {scrollFunction()};
-        
+    
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
                 document.getElementById("btnTopo").style.display = "block";
             } else {
                 document.getElementById("btnTopo").style.display = "none";
@@ -146,7 +146,6 @@
         }
 
         function openInfo(evt, topico) {
-            
             var i, tabcontent, tablinks;
 
             tabcontent = document.getElementsByClassName("profile-content");
@@ -162,7 +161,7 @@
             document.getElementById(topico).style.display = "block";
             evt.currentTarget.className += " active";
 
-            document.getElementById(topico).scrollIntoView();
+            document.getElementById(topico).scrollIntoView();document.getElementById(topico).scrollIntoView();
         }   
         document.getElementById("defaultOpen").click();
     </script>
