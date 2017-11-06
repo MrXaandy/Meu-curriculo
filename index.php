@@ -43,8 +43,8 @@
             </section>
             <section id="informacoes" class="profile-content">
                 <h2>Informações básicas</h2>
-                <p><strong>Data de nascimento:</strong>23/10/1995</p>
-                <p><strong>Endereço:</strong>R. Herculano da Silva</p>
+                <p><strong>Data de nascimento:</strong> 23/10/1995</p>
+                <p><strong>Endereço:</strong> R. Herculano da Silva</p>
                 <p><strong>Estado Civil:</strong> Solteiro</p>
                 <p><strong>Naturalidade:</strong> Brasileiro</p>
                 <p><strong>Telefone:</strong> (48) 988353879</p>
@@ -71,7 +71,7 @@
                 <h2>Participação em eventos</h2>
                 <p><strong>Nome:</strong> SECOMP</p>
                 <p><strong>Cidade:</strong> Criciúma</p>
-                <p><strong>Ano:</strong>2017</p>
+                <p><strong>Ano:</strong> 2017</p>
             </section>
             <section id="adicionais" class="profile-content">
                 <h2>Informações adicionais:</h2>
