@@ -18,7 +18,7 @@
                         <img src="imagens/mrxaandy.png" alt="mrxaandy" class="img-responsive img-circle img">
                 </figure>
                 <div class="profile-user-title">
-                        MrXaandy
+                        Alexandre da Silva
                 </div>
                 <div class="profile-user-buttons">
                     <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Entre em contato</button>
@@ -94,19 +94,19 @@
                     <form action="mail.php" method="post" name="form">
                     <div class="form-group">
                             <label>Nome:</label>
-                            <input type="text" class="form-control" name="nome" id="nome">
+                            <input type="text" class="form-control" name="nome" id="nome" required>
                         </div>
                         <div class="form-group">
                             <label>Email:</label>
-                            <input type="email" class="form-control" name="email" id="email">
+                            <input type="email" class="form-control" name="email" id="email" required>
                         </div>
                         <div class="form-group">
                             <label>Assunto:</label>
-                            <input type="text" class="form-control" name="assunto" id="assunto">
+                            <input type="text" class="form-control" name="assunto" id="assunto" required>
                         </div>
                         <div class="form-group">
                             <label>Mensagem:</label>
-                            <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+                            <textarea class="form-control" name="mensagem" id="mensagem" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-default" name="Enviar" value="Enviar">Enviar</button>
                     </form>
