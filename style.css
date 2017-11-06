@@ -146,7 +146,7 @@ form{
 #btnTopo {
     display: none; 
     position: fixed; 
-    bottom: 20px; 
+    bottom: 40px; 
     right: 30px; 
     z-index: 99; 
     border: none; 
@@ -154,7 +154,7 @@ form{
     background-color: #2962FF; 
     color: white; 
     cursor: pointer; 
-    padding: 10px 15px 10px 15px;
+    padding: 15px 20px 15px 20px;
     border-radius: 10px; 
 }
 
@@ -182,25 +182,4 @@ form{
       margin: 10px;
       float: left;
   }
-  .jquery-waiting-base-container {
-    position: absolute;
-    left: 0px;
-    top:0px;
-    margin:0px;
-    width: 100%;
-    height: 100%;
-    display:block;
-    z-index: 9999997;
-    opacity: 0.65;
-    -moz-opacity: 0.65;
-    filter: alpha(opacity = 65);
-    background: black;
-    background-image: url("../images/loaders/ajax-loader.gif");
-    background-repeat: no-repeat;
-    background-position:50% 50%;
-    text-align: center;
-    overflow: hidden;
-    font-weight: bold;
-    color: white;
-    padding-top: 25%;
-    }
+ 
